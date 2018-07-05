@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.musing.boot.externalprops.MyExternalProperties",
+      "name": "ext.props",
+      "type": "com.musing.boot.externalprops.MyExternalProperties"
+    },
+    {
+      "sourceType": "com.musing.boot.externalprops.MyCustomProperties",
+      "name": "mycustom.props",
+      "type": "com.musing.boot.externalprops.MyCustomProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.musing.boot.externalprops.MyExternalProperties",
+      "name": "ext.props.my-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.musing.boot.externalprops.MyCustomProperties",
+      "name": "mycustom.props.my-value",
+      "type": "java.lang.String"
+    }
+  ]
+}
